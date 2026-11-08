@@ -2,6 +2,10 @@
   "name": "royaloud",
   "version": "1.0.0",
   "description": "RoyalOud - a Salla React theme",
+  "author": {
+    "name": "sealharbi73",
+    "email": "sealharbi73@gmail.com"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite dev",
