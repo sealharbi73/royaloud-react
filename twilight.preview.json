@@ -1,0 +1,543 @@
+{
+  "enabled": true,
+  "settings": {
+    "hero_title": "عودٌ يليق بك",
+    "hero_subtitle": "اكتشف نفائس العود الطبيعي المختارة بعناية لتجربة عطرية استثنائية.",
+    "product_card_layout": "vertical",
+    "product_card_img_ratio": "auto",
+    "header_layout": "default",
+    "enable_more_menu": true,
+    "header_show_store_info": false,
+    "header_store_info_home_only": true,
+    "header_is_sticky": false,
+    "topnav_is_dark": true,
+    "important_links": true,
+    "squar_photo_bg_image_size": "contain",
+    "vertical_fixed_products": false,
+    "is_more_button_enabled": false,
+    "footer_is_dark": true,
+    "product_show_breadcrumbs": true,
+    "product_index_show_breadcrumbs": true,
+    "enable_add_product_toast": true,
+    "notify_when_available_in_card": true,
+    "sticky_add_to_cart": true,
+    "product_options_collapsible": true,
+    "show_tags": true,
+    "slider_background_size": "contain",
+    "imageZoom": false
+  },
+  "layout": [
+    {
+      "id": "b-b5e8c73787c5",
+      "path": "enhanced-slider",
+      "fields": {
+        "key": "186b3f4f-25cf-4d3c-abca-cef7eed6f0ab",
+        "slides": [
+          {
+            "ar": {
+              "title": "روِّج لمنتجاتك كصور متحركة",
+              "description": "اعرض المنتجات التي تود إبرازها لزوّار متجرك في هذه المساحة"
+            },
+            "image": "https://cdn.files.salla.network/other/1510890315/838851fd-7682-4de2-9f14-f48701b23d5a-original.webp",
+            "video": "https://www.youtube.com/watch?v=vFEs4jQIigc&pp=ygUebGl0ZSBzaG9wcGluZyBiYWNrZ3JvdW5kIHZpZGVv",
+            "__hidden": "",
+            "without_overlay": false,
+            "title": "روِّج لمنتجاتك كصور متحركة",
+            "description": "اعرض المنتجات التي تود إبرازها لزوّار متجرك في هذه المساحة"
+          },
+          {
+            "ar": {
+              "title": "شجّع زوار متجرك على الشراء عبر عروض خاصة",
+              "description": "اعرض المنتجات التي تود إبرازها لزوّار متجرك في هذه المساحة"
+            },
+            "image": "https://cdn.files.salla.network/other/1510890315/d96a825c-0f22-4754-8511-e6a6225f9402-original.webp",
+            "video": "",
+            "__hidden": "",
+            "without_overlay": false,
+            "title": "شجّع زوار متجرك على الشراء عبر عروض خاصة",
+            "description": "اعرض المنتجات التي تود إبرازها لزوّار متجرك في هذه المساحة"
+          }
+        ],
+        "versions": null,
+        "auto_play": false,
+        "channel_visibility": {
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "id": "b-fc67ed080f70",
+      "path": "main-links",
+      "fields": {
+        "ar": {
+          "title": ""
+        },
+        "key": "2b1b130b-5b37-422a-9683-e0fd367460c0",
+        "links": [
+          {
+            "ar": {
+              "title": "عطر رجالي"
+            },
+            "icon": "sicon-packed-box",
+            "image": "https://cdn.files.salla.network/other/1510890315/c2b6b4f5-4134-4b96-9072-bc73674417ab-original.webp",
+            "__hidden": "",
+            "title": "عطر رجالي"
+          },
+          {
+            "ar": {
+              "title": "عطر شرقي"
+            },
+            "icon": "sicon-fabric-swatch",
+            "image": "https://cdn.files.salla.network/other/1510890315/9d293706-07c3-485d-80d5-fe7650ae274a-original.webp",
+            "__hidden": "",
+            "title": "عطر شرقي"
+          },
+          {
+            "ar": {
+              "title": "فرنسيات"
+            },
+            "icon": "sicon-cake",
+            "image": "https://cdn.files.salla.network/other/1510890315/25e3508a-cc6d-4a9c-bf67-89ed95a18030-original.webp",
+            "__hidden": "",
+            "title": "فرنسيات"
+          },
+          {
+            "ar": {
+              "title": "عود فاخر"
+            },
+            "icon": "sicon-game-controller-alt",
+            "image": "https://cdn.files.salla.network/other/1510890315/15138cfc-cf8f-4f97-834c-0e16aac5f8e6-original.webp",
+            "__hidden": "",
+            "title": "عود فاخر"
+          },
+          {
+            "ar": {
+              "title": "عطر نسائي"
+            },
+            "icon": "sicon-barcode-scan",
+            "image": "https://cdn.files.salla.network/other/1510890315/2f269add-6253-4891-a875-299e47cd592e-original.webp",
+            "__hidden": "",
+            "title": "عطر نسائي"
+          },
+          {
+            "ar": {
+              "title": "مسك أبيض"
+            },
+            "icon": "sicon-inbox-full",
+            "image": "https://cdn.files.salla.network/other/1510890315/c2254166-055b-4089-8c11-fa545425e110-original.webp",
+            "__hidden": "",
+            "title": "مسك أبيض"
+          },
+          {
+            "ar": {
+              "title": "عنبر دافئ"
+            },
+            "icon": "sicon-calendar-date",
+            "image": "https://cdn.files.salla.network/other/1510890315/3e789966-ba6a-4f40-bfd4-2b478d8316e5-original.webp",
+            "__hidden": "",
+            "title": "عنبر دافئ"
+          },
+          {
+            "ar": {
+              "title": "حمضيات"
+            },
+            "en": {
+              "title": ""
+            },
+            "icon": "sicon-store2",
+            "image": "https://cdn.files.salla.network/other/1510890315/a3c13805-1348-41b1-99a0-cd16d7773da7-original.webp",
+            "__hidden": false,
+            "title": "حمضيات"
+          },
+          {
+            "ar": {
+              "title": "ورد دمشقي"
+            },
+            "en": {
+              "title": ""
+            },
+            "icon": "sicon-store2",
+            "image": "https://cdn.files.salla.network/other/1510890315/25947e14-43cb-49a1-af03-31a532874134-original.webp",
+            "__hidden": false,
+            "title": "ورد دمشقي"
+          },
+          {
+            "ar": {
+              "title": "هديا عطرية"
+            },
+            "en": {
+              "title": ""
+            },
+            "icon": "sicon-store2",
+            "image": "https://cdn.files.salla.network/other/1510890315/90efaef3-fe8d-4751-90bd-159ae2336815-original.webp",
+            "__hidden": false,
+            "title": "هديا عطرية"
+          }
+        ],
+        "versions": null,
+        "show_cats": true,
+        "categories": [
+          {
+            "id": "preview-natural-oud",
+            "name": "العود الطبيعي والمحسن",
+            "image": "/images/cat-natural-oud.png",
+            "url": "/products?source=latest"
+          },
+          {
+            "id": "preview-oud-oils",
+            "name": "أدهان العود الملكية",
+            "image": "/images/cat-oud-oils.png",
+            "url": "/products?source=latest"
+          },
+          {
+            "id": "preview-mabthouth",
+            "name": "المبثوث والمعمول",
+            "image": "/images/cat-mabthouth.png",
+            "url": "/products?source=latest"
+          },
+          {
+            "id": "preview-burners",
+            "name": "المباخر والإكسسوارات",
+            "image": "/images/cat-burners.png",
+            "url": "/products?source=latest"
+          },
+          {
+            "id": "preview-oriental-perfumes",
+            "name": "العطور الشرقية",
+            "image": "/images/cat-perfumes.png",
+            "url": "/products?source=latest"
+          }
+        ],
+        "show_controls": true,
+        "channel_visibility": {
+          "desktop": true,
+          "mobile": true
+        },
+        "merge_with_top_component": false,
+        "title": ""
+      }
+    },
+    {
+      "id": "b-ac28df8aba5b",
+      "path": "photos-slider",
+      "fields": {
+        "items": [
+          {
+            "url": "https://demostore.salla.sa/ar/dev-vgckq3fssfhjewwi/offers",
+            "image": "/images/promo-banner-1.png"
+          },
+          {
+            "url": "https://demostore.salla.sa/ar/dev-vgckq3fssfhjewwi/offers",
+            "image": "/images/promo-banner-2.png"
+          },
+          {
+            "url": "https://demostore.salla.sa/ar/dev-vgckq3fssfhjewwi/offers",
+            "image": "/images/promo-banner-3.png"
+          }
+        ],
+        "is_repeated": false,
+        "position": 1,
+        "key": null,
+        "channel_visibility": {
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "id": "b-10cc50f8c554",
+      "path": "fixed-products",
+      "fields": {
+        "products": {
+          "source": "latest"
+        },
+        "title": "وصل حديثاً",
+        "limit": 6,
+        "isVertical": true,
+        "display_all_url": "https://demostore.salla.sa/ar/dev-vgckq3fssfhjewwi/latest-products",
+        "position": 1,
+        "key": null,
+        "channel_visibility": {
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "id": "b-dfb6d4f5fa81",
+      "path": "products-slider",
+      "fields": {
+        "products": {
+          "source": "latest"
+        },
+        "title": "المختارات الحصرية",
+        "limit": 6,
+        "position": 1,
+        "key": null,
+        "channel_visibility": {
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "id": "b-3c60ed99cc1c",
+      "path": "enhanced-slider",
+      "fields": {
+        "key": "186b3f4f-25cf-4d3c-abca-cef7eed6f0ab",
+        "slides": [
+          {
+            "ar": {
+              "title": "موسم يزهر بالجمال",
+              "description": "عطور ومكياج وعناية بالبشرة بإصدارات جديدة تنبض بروح الربيع هذا الموسم."
+            },
+            "image": "https://cdn.files.salla.network/other/1510890315/d96a825c-0f22-4754-8511-e6a6225f9402-original.webp",
+            "video": "",
+            "__hidden": false,
+            "without_overlay": false,
+            "title": "موسم يزهر بالجمال",
+            "description": "عطور ومكياج وعناية بالبشرة بإصدارات جديدة تنبض بروح الربيع هذا الموسم."
+          },
+          {
+            "ar": {
+              "title": "موسم يزهر بالجمال",
+              "description": "عطور ومكياج وعناية بالبشرة بإصدارات جديدة تنبض بروح الربيع هذا الموسم."
+            },
+            "en": {
+              "title": "",
+              "description": ""
+            },
+            "image": "https://cdn.files.salla.network/other/1510890315/a51f8ec1-8372-47d8-8e43-de95c06a49ca-original.webp",
+            "video": "",
+            "__hidden": false,
+            "without_overlay": false,
+            "title": "موسم يزهر بالجمال",
+            "description": "عطور ومكياج وعناية بالبشرة بإصدارات جديدة تنبض بروح الربيع هذا الموسم."
+          },
+          {
+            "ar": {
+              "title": "موسم يزهر بالجمال",
+              "description": "عطور ومكياج وعناية بالبشرة بإصدارات جديدة تنبض بروح الربيع هذا الموسم."
+            },
+            "en": {
+              "title": "",
+              "description": ""
+            },
+            "image": "https://cdn.files.salla.network/other/1510890315/75ba1a0c-426b-4b70-8d7e-0ac6b540e1f5-original.webp",
+            "video": "",
+            "__hidden": false,
+            "without_overlay": false,
+            "title": "موسم يزهر بالجمال",
+            "description": "عطور ومكياج وعناية بالبشرة بإصدارات جديدة تنبض بروح الربيع هذا الموسم."
+          }
+        ],
+        "versions": null,
+        "auto_play": true,
+        "in_container": true,
+        "channel_visibility": {
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "id": "b-1126353b8ec8",
+      "path": "enhanced-square-banners",
+      "fields": {
+        "key": "b89edc4a-ce0b-468f-8323-2da48147bb32",
+        "banners": [
+          {
+            "ar": {
+              "title": "العود الطبيعي والمحسن",
+              "description": ""
+            },
+            "en": {
+              "title": "",
+              "description": ""
+            },
+            "image": "/images/cat-natural-oud.png",
+            "__hidden": "",
+            "title": "العود الطبيعي والمحسن",
+            "description": ""
+          },
+          {
+            "ar": {
+              "title": "أدهان العود الملكية",
+              "description": ""
+            },
+            "en": {
+              "title": "",
+              "description": ""
+            },
+            "image": "/images/cat-oud-oils.png",
+            "__hidden": "",
+            "title": "أدهان العود الملكية",
+            "description": ""
+          },
+          {
+            "ar": {
+              "title": "المبثوث والمعمول",
+              "description": ""
+            },
+            "en": {
+              "title": "",
+              "description": ""
+            },
+            "image": "/images/cat-mabthouth.png",
+            "__hidden": "",
+            "title": "المبثوث والمعمول",
+            "description": ""
+          },
+          {
+            "ar": {
+              "title": "المباخر والإكسسوارات",
+              "description": ""
+            },
+            "en": {
+              "title": "",
+              "description": ""
+            },
+            "image": "/images/cat-burners.png",
+            "__hidden": "",
+            "title": "المباخر والإكسسوارات",
+            "description": ""
+          },
+          {
+            "ar": {
+              "title": "العطور الشرقية",
+              "description": ""
+            },
+            "en": {
+              "title": "",
+              "description": ""
+            },
+            "image": "/images/cat-perfumes.png",
+            "__hidden": "",
+            "title": "العطور الشرقية",
+            "description": ""
+          }
+        ],
+        "versions": null,
+        "languages": null,
+        "channel_visibility": {
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "id": "b-e6a2a198d931",
+      "path": "custom-testimonials",
+      "fields": {
+        "key": "541cc423-90c7-4230-8a33-a0342cfde4ad",
+        "items": [
+          {
+            "ar": {
+              "text": "العنبر الأصيل بخور تجربة رائعة، رائحة فخمة وملفتة للانتباه. أحببت اللمسة النهائية التي تتركها على الثوب، سأكرر الشراء بالتأكيد ️"
+            },
+            "name": "ندى الحسيني",
+            "stars": 5,
+            "avatar": "https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_female.png",
+            "__hidden": "",
+            "text": "العنبر الأصيل بخور تجربة رائعة، رائحة فخمة وملفتة للانتباه. أحببت اللمسة النهائية التي تتركها على الثوب، سأكرر الشراء بالتأكيد ️"
+          },
+          {
+            "ar": {
+              "text": "المسك الأبيض بخور رائحته مميزة جدًا، خفيفة في البداية وتتطور لتصبح أكثر دفئًا مع مرور الوقت. أفضل عطر اشتريته هذا العا"
+            },
+            "name": "خالد الأحمد",
+            "stars": 5,
+            "avatar": "https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_male.png",
+            "__hidden": "",
+            "text": "المسك الأبيض بخور رائحته مميزة جدًا، خفيفة في البداية وتتطور لتصبح أكثر دفئًا مع مرور الوقت. أفضل عطر اشتريته هذا العا"
+          },
+          {
+            "ar": {
+              "text": "بلو لافيرن بخور رائحته جميلة وملفتة، أحببت طريقة التعبئة ووضوح التفاصيل. سأوصي به لجميع أصدقائي الذين يحبون العطور الشرقية."
+            },
+            "name": "خالد المسعودي",
+            "stars": 5,
+            "avatar": "https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_male.png",
+            "__hidden": "",
+            "text": "بلو لافيرن بخور رائحته جميلة وملفتة، أحببت طريقة التعبئة ووضوح التفاصيل. سأوصي به لجميع أصدقائي الذين يحبون العطور الشرقية."
+          },
+          {
+            "ar": {
+              "text": "العنبر الأصيل عطر فاخر ودرجته عالية جدًا، يبقى على الملابس لفترة طويلة. أحببت تجربتي الأولى وسأقوم بشراء المزيد من نفس الماركة.️"
+            },
+            "name": "عبدالعزيز اليامي",
+            "stars": 5,
+            "avatar": "https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_male.png",
+            "__hidden": "",
+            "text": "العنبر الأصيل عطر فاخر ودرجته عالية جدًا، يبقى على الملابس لفترة طويلة. أحببت تجربتي الأولى وسأقوم بشراء المزيد من نفس الماركة.️"
+          },
+          {
+            "ar": {
+              "text": "العنبر الأصيل عطر فاخر ودرجته عالية جدًا، يبقى على الملابس لفترة طويلة. أحببت تجربتي الأولى وسأقوم بشراء المزيد من نفس الماركة."
+            },
+            "en": {
+              "text": ""
+            },
+            "name": "خالد الشهراني",
+            "stars": 5,
+            "avatar": "https://cdn.files.salla.network/other/1510890315/c2b6b4f5-4134-4b96-9072-bc73674417ab-original.webp",
+            "__hidden": false,
+            "text": "العنبر الأصيل عطر فاخر ودرجته عالية جدًا، يبقى على الملابس لفترة طويلة. أحببت تجربتي الأولى وسأقوم بشراء المزيد من نفس الماركة."
+          }
+        ],
+        "versions": null,
+        "channel_visibility": {
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "id": "b-82028fc524b6",
+      "path": "store-features",
+      "fields": {
+        "features": [
+          {
+            "icon": "sicon-store2",
+            "title": "تسوق آمن",
+            "description": "استمتع بتجربة آمنة وخصوصية تامة"
+          },
+          {
+            "icon": "sicon-shipping-fast",
+            "title": "خدمة العملاء",
+            "description": "تواصل معنا في أي وقت"
+          },
+          {
+            "icon": "sicon-fire",
+            "title": "شحن سريع",
+            "description": "استلم طلبك في وقت قياسي"
+          }
+        ],
+        "position": 1,
+        "key": null,
+        "channel_visibility": {
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "id": "b-d057b8e23f8d",
+      "path": "oud-editorial",
+      "fields": {
+        "key": "4a7c3ec2-b7f6-4f13-8b9b-8b40b4582cce",
+        "eyebrow": "????? ?? ??????",
+        "title": "????? ?????",
+        "description": "?? ??? ???? ???? ??? ??? ??? ????? ????? ??? ????? ????? ?? ????? ????? ???? ????????.",
+        "image": "/images/cat-natural-oud.png",
+        "button_text": "????? ???? ?????",
+        "button_link": "/products",
+        "channel_visibility": {
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    }
+  ]
+}

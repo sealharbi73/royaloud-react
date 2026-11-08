@@ -1,0 +1,290 @@
+/*
+ * IMPORTANT NOTE: Theme based on Tailwindcss but for the purpose of simplifing the DOM we use
+ * tailwind classes with @apply directive in the SCSS files
+*/
+
+/**
+ * SETTINGS
+ * Fonts................Any font files.
+ * Global...............Project-specific, globally available variables.
+ * Breakpoints..........Mixins and variables for responsive styles.
+ *
+ * GENERIC
+ * Common...............All commn styles and assistan classes and common style fixes
+ * Reset................Reset specific elements to make them easier to style in other contexts.
+ * Animations...........Some of animations from anime.css
+ * RTL..................Specific styles for RTL.
+ * LTR..................Specific styles for LTR.
+ *
+ * ELEMENTS
+ * Forms................Element-level form styling.
+ * Buttons..............Specific styles for buttons.
+ * Radio................Specific styles for custom radio button.
+ * Radio Images.........Specific styles for radio images, used in product options.
+ *
+ * COMPONENTS
+ * Header...............Specific styles for header styles.
+ * Footer...............Specific styles for footer styles.
+ * Menu.................Specific styles for main menu and mobile menu styles.
+ * User Menu............Specific styles for user menu dropdown.
+ * User Pages...........Specific styles for user pages like profile, notifications, orders...
+ * Home Blocks..........Specific styles for home blocks.
+ * Slider...............Specific styles for sliders.
+ * Product..............Specific styles for single product page and it's elements.
+ * Brands...............Specific styles for brands page.
+ * Placeholder..........Specific styles for no content placeholders.
+ * Gifting..............Specific styles for gifting system.
+ * Loyalty..............Specific styles for loyalty system.
+ *
+ * UTILITIES
+ * Chat Bots............Specific styles for chats bots widget.
+ * Swal.................Specific styles for Sweet Alert addon.
+ * Safari Fixes.........Specific styles for Safari Browser.
+ *
+ * EMBEDED ADDONS
+ * Lite Youtube Embed...Specific styles for lite-youtube-embed addon.
+ * Swiper...............Specific styles for swiper slider addon.
+ * MMenu................Specific styles for mmenu addon.
+ *
+*/
+
+// Note: Tailwind directives are in app.css, not here
+
+@import './01-settings/global';
+@import './01-settings/breakpoints';
+
+@import './02-generic/reset';
+@import './02-generic/common';
+@import './02-generic/tooltip';
+@import './02-generic/animations';
+@import './02-generic/rtl';
+@import './02-generic/ltr';
+@import './02-generic/mixins';
+
+// Vendored Swiper stylesheet — before the component layers so theme rules
+// override it, matching the cascade the per-chunk link used to have.
+@import './vendor/swiper.css';
+
+@import './03-elements/form';
+@import './03-elements/buttons';
+@import './03-elements/radio';
+@import './03-elements/radio-images';
+
+@import './04-components/header';
+@import './04-components/footer';
+@import './04-components/social';
+@import './04-components/mobile-bottom-bar';
+@import './04-components/mobile-page-title';
+@import './04-components/menus';
+@import './04-components/bottom-sheet';
+@import './04-components/breadcrumb';
+@import './04-components/user-menu';
+@import './04-components/mobile-account-sheet';
+@import './04-components/user-pages';
+@import './04-components/home-blocks';
+@import './04-components/slider';
+@import './04-components/product';
+@import './04-components/product-list';
+@import './04-components/cart';
+@import './04-components/options-panel';
+@import './04-components/reviews';
+@import './04-components/metadata';
+@import './04-components/quantity-stepper';
+@import './04-components/brands';
+@import './04-components/no-content-placeholder';
+@import './04-components/gifting';
+@import './04-components/loyalty';
+@import './04-components/thank-you';
+@import './04-components/virtooal';
+@import './04-components/add-product-toast';
+
+@import './05-utilities/chat-bots';
+@import './05-utilities/swal';
+@import './05-utilities/safari-fixes';
+@import './05-utilities/font-customization';
+
+
+// For Dev Only
+/* Dev-only floating tool triggers (TanStack Router Devtools, the twilight.json
+   settings gear, the Salla dev panel). Hidden below `sm` so they don't sit on
+   top of the mobile UI. The gear button ships an inline `display: flex`, which
+   beats a plain rule, so the hide must be `!important`; at `sm+` this query
+   simply doesn't apply and each widget keeps its own display. */
+@media (max-width: 639.98px) {
+  .TanStackRouterDevtools,
+  button[aria-label='Theme dev settings'],
+  #__dt-salla-panel-host {
+    display: none !important;
+  }
+}
+:root {
+  --color-primary: #D4AF37 !important;
+  --color-primary-dark: #B59021 !important;
+  --color-background: #0F0F12 !important;
+  --color-card-bg: #16161A !important;
+  --color-text: #F5F2EB !important;
+  --color-text-secondary: #C5C1B9 !important;
+}
+
+body, html, .app-inner {
+  background-color: var(--color-background) !important;
+  color: var(--color-text) !important;
+}
+
+/* Product-card surfaces use the store's dark palette. */
+.s-product-card,
+.product-item,
+salla-product-card {
+  --s-card-bg: #0F0F12;
+  --s-product-card-bg: #0F0F12;
+  background-color: #0F0F12 !important;
+  color: #F5F2EB !important;
+}
+
+/* إبراز الأسعار والعناوين داخل العناصر المعزولة */
+.s-product-card__title,
+.s-product-card__price,
+.product-title,
+.price {
+  color: #F5F2EB !important;
+}
+
+.s-product-card__price {
+  color: #D4AF37 !important;
+}/* 1. تفتيح أسماء المنتجات والعناوين داخل بطاقات المنتجات */
+.s-product-card__title,
+.s-product-card__title a,
+.product-item__name,
+.product-item__title {
+  color: #F5F2EB !important;
+  font-weight: 600 !important;
+}
+
+/* 2. تفتيح أسماء الأقسام والتصنيفات (الموجودة أعلى الصفحة أو في شريط التصنيفات) */
+.s-block__title,
+.section-title,
+.category-name,
+.category-item__title,
+.nav-link,
+[class*="category"] span,
+[class*="category"] a {
+  color: #F5F2EB !important;
+}
+
+/* 3. تمييز أسعار المنتجات باللون الذهبي الملكي الجذاب */
+.s-product-card__price,
+.s-product-card__price span,
+.price-amount {
+  color: #D4AF37 !important;
+  font-weight: bold !important;
+}/* 1. تثبيت لون الروابط والأقسام في الهيدر الرئيسي بالحالة العادية */
+header a,
+.site-header a,
+.main-menu a,
+.sub-menu a,
+.nav-link {
+  color: #F5F2EB !important;
+  opacity: 1 !important;
+}
+
+/* 2. تثبيت أسماء الأقسام الدائرية والتصنيفات في الصفحة الرئيسية */
+.category-name,
+.s-block--categories a,
+.s-block--categories span,
+[class*="category"] a,
+[class*="category"] span {
+  color: #D4AF37 !important; /* اللون الذهبي الملكي ثابت من البداية */
+  opacity: 1 !important;
+}
+
+/* 3. تثبيت أسماء المنتجات والأسعار داخل البطاقات في الوضع الطبيعي */
+.s-product-card a,
+.s-product-card__title,
+.product-entry a,
+.product-title {
+  color: #F5F2EB !important;
+  opacity: 1 !important;
+}
+
+/* 4. إبقاء تأثير المرور بالماوس جذاباً بسطوع أواضح */
+header a:hover,
+.main-menu a:hover,
+.category-name:hover,
+.s-product-card a:hover {
+  color: #D4AF37 !important;
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}/* فرض اللون الذهبي الناصع على أسماء الأقسام الدائرية والتصنيفات في الصفحة الرئيسية منذ البداية */
+.s-block--categories,
+salla-category-slider,
+[class*="category"],
+.category-block {
+  a, span, p, h3 {
+    color: #F5F2EB !important;
+    opacity: 1 !important;
+  }
+
+  /* تمييز اسم القسم أسفل الدائرة بالذهبي الملكي ليكون واضحاً وساطعاً */
+  .category-name,
+  span {
+    color: #D4AF37 !important;
+    font-weight: 600 !important;
+  }
+}
+/* استهداف مباشر ومتقدم لمكونات التصنيفات والأقسام الدائرية في سلة */
+salla-category-slider *,
+.s-block--categories *,
+[data-component="categories"] *,
+.categories-slider * {
+  color: #F5F2EB !important;
+  opacity: 1 !important;
+}
+
+/* تثبيت اللون الذهبي لأسماء الأقسام تحتيّاً */
+salla-category-slider span,
+.s-block--categories span,
+.category-block span {
+  color: #D4AF37 !important;
+}
+/* 1. تحويل جميع الأسعار والخصومات والأسعار القديمة من الأحمر إلى الذهبي والعاجي البارز */
+.price,
+.s-product-card__price,
+.product-price,
+del,
+s,
+.text-red-500,
+[class*="text-red"] {
+  color: #D4AF37 !important;
+}
+
+/* 2. تحويل الأسعار الحالية أو العادية إلى اللون العاجي الفاخر */
+.current-price,
+ins {
+  color: #F5F2EB !important;
+  font-weight: bold !important;
+}
+
+/* 3. توضيح وتبريز أسرار وأيقونات التنقل (السلايدر) التي تم تحديدها بالدائرة */
+salla-slider-common .slick-arrow,
+.s-slider-nav,
+button[class*="arrow"],
+.swiper-button-next,
+.swiper-button-prev,
+[class*="slider"] button,
+.s-slider-bullets span {
+  color: #F5F2EB !important;
+  background-color: rgba(212, 175, 55, 0.2) !important;
+  border: 1px solid #D4AF37 !important;
+  opacity: 1 !important;
+}
+
+/* نقاط التنقل الخاصة بالسلايدر */
+.swiper-pagination-bullet,
+.s-slider-bullets span {
+  background-color: #F5F2EB !important;
+  opacity: 0.5;
+
+  &.swiper-pagination-bullet-active, &.active {
+    background-color: #D4AF37 !important;
+    opacity: 1;
+  }
+}
